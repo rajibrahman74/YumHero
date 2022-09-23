@@ -1,0 +1,143 @@
+/*
+    Google fonts import
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter&family=Dancing+Script:wght@500&family=Edu+NSW+ACT+Foundation&family=Edu+SA+Beginner:wght@700&family=Merriweather&family=Noto+Sans&family=Poppins:wght@400;500&family=Roboto:wght@500&family=Splash&family=Titillium+Web&display=swap');
+
+/*
+    Common style
+ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+/*
+    header section style
+ */
+
+
+
+.navigation {
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navigation > a {
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(26, 17, 17);
+}
+.navigation > a:visited {
+    color: black;
+}
+
+.navigation ul {
+    display: flex;
+    list-style-type: none;
+    gap: 35px;
+}
+ul li   {
+    cursor: pointer;
+}
+
+.navigation button  {
+    border: none;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+    background-color: rgb(70, 70, 202);
+    padding: 30px 60px;
+}
+
+/*
+    hero section style
+ */
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+section .hero-content {
+   width: 41%;
+   background-image: url("images/round-shape.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+
+.hero-content  div {
+    margin-bottom: 40px;
+}
+.hero-content h1 {
+    font-size: 70px;
+}
+.hero-content .heading-first {
+    margin-bottom: -23px;
+}
+.hero-content .heading-last {
+    margin-top: -23px;
+}
+
+.hero-content .facilities {
+    display:flex;
+    margin-top: 48px;
+    height: 103px;
+}
+
+.spa {
+    width: 90px;
+    height: 85%;
+    background-color: #F9D6C1;
+    margin-right: 12px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.hotel {
+    width: 90px;
+    height: 85%;
+    background-color: #CBE8F8;
+    margin-right: 12px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.breakfast{
+    width: 90px;
+    height: 85%;
+    background-color: #F5D7E1;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+
+section .hero-img {
+    width: 59%;
+}
+section .hero-img img {
+    width: 100%;
+    height: 86.9vh;
+}
